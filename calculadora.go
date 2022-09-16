@@ -33,7 +33,7 @@ func (calc) operate(entrada string, operador string) int {
 	}
 }
 
-func leerTeclado() string {
+func LeerTeclado() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	return scanner.Text()
